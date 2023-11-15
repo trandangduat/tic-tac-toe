@@ -1,0 +1,33 @@
+@import url('reset.css');
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+#game-board {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#game-board #cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+
+@keyframes frfr {
+    from {
+        background: transparent;
+    }
+    to {
+        background: rgb(0, 213, 0);
+    }
+}
+
+.flicker {
+    animation: frfr 0.5s infinite;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <form action = "#" method = "post">
+        <fieldset>
+            <label for = "first-player">First player</label>
+            <input type = "text" id = "first-player-name" name = "first-player-name" placeholder="Name here..." required>
+        </fieldset>
+        <fieldset>
+            <label for="second-player">Second player</label>
+            <input type="text" id="second-player-name" name="second-player-name" placeholder="Name here..." required>
+        </fieldset>
+        <fieldset>
+            <button type="button" id = "save-changes">Save changes</button>
+        </fieldset>
+    </form>
+    <div id = "game-board">
+        
+    </div>
+    <button id = "reset-btn">Reset game</button>
+</body>
+</html>
